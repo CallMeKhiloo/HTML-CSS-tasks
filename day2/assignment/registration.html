@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body bgcolor="#6b6b6a">
+    <h1 align="center">Registration page</h1>
+    <form action="thankyou.html">
+      <label for="firstname">first name:</label
+      ><input type="firstname" id="firstname" name="firstname" required /><br />
+      <label for="lastname">lastname:</label>
+      <input type="lastname" name="lastname" id="lastname" required /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br />
+      <label for="password">password:</label>
+      <input type="password" id="password" name="password" required /><br />
+      <label for="repeatpassword">Enter password again:</label>
+      <input
+        type="password"
+        id="repeatpassword"
+        name="repeatpassword"
+        required
+      /><br />
+      <label for="birthday">Birthdate:</label>
+      <input type="date" id="birthday" name="birthday" /><br />
+      <label for="myfile">Select a picture:</label>
+      <input type="file" id="myfile" name="filename" /><br />
+      <p>Gender:</p>
+      <input type="radio" id="male" value="m" name="gender" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" value="f" name="gender" />
+      <label for="female">Female</label><br />
+      <label for="faculty">Select your faculty:</label>
+      <select name="faculty" id="faculty">
+        <option value="engineering">Engineering</option>
+        <option value="Arts">Arts</option></select
+      ><br />
+      <p>interests:</p>
+      <input type="checkbox" id="interest1" name="interest" value="football" />
+      <label for="interest1">Football</label><br />
+
+      <input type="checkbox" id="interest2" name="interest" value="chess" />
+      <label for="interest2">Chess</label><br />
+
+      <input type="checkbox" id="interest3" name="interest" value="reading" />
+      <label for="interest3">Reading</label><br />
+      <label for="aboutme">About me:</label><br />
+      <textarea name="aboutme" id="aboutme"></textarea><br />
+      <input type="checkbox" id="terms" name="terms" required />
+      <label for="terms">I agree to the terms and conditions</label><br />
+      <div padding="2px">
+        <input type="submit" value="submit" />&nbsp<input
+          type="reset"
+          value="reset"
+        />
+      </div>
+    </form>
+  </body>
+</html>
